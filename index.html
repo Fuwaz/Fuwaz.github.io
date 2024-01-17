@@ -1,0 +1,149 @@
+<!--Cailyn-Rose Dapkins-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US History Flashcards</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .flashcard-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .flashcard {
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-out;
+    }
+
+    .flashcard:hover {
+        transform: scale(1.1);
+    }
+
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .question,
+    .answer {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .answer {
+        display: none;
+        margin-top: 10px;
+        color: rgb(66, 182, 218);
+    }
+
+    .flashcard:hover .answer {
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .animation {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="animation">
+  <h1>US History Flashcards</h1>
+
+  <div class="flashcard-container">
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Who was the first President of the United States?</div>
+      <div class="answer">George Washington.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Which document outlined the original framework of the U.S. government?</div>
+      <div class="answer">The U.S. Constitution.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">What event prompted the U.S. to enter World War II?</div>
+      <div class="answer">The attack on Pearl Harbor.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Who delivered the "I Have a Dream" speech?</div>
+      <div class="answer">Martin Luther King Jr.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Which amendment to the U.S. Constitution abolished slavery?</div>
+      <div class="answer">The 13th Amendment.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Who was the U.S. President during World War II?</div>
+      <div class="answer">Franklin D. Roosevelt.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Which U.S. President issued the Emancipation Proclamation?</div>
+      <div class="answer">Abraham Lincoln.</div>
+    </div>
+  </div>
+
+  <div class="flashcard">
+    <div class="content">
+      <div class="question">Which U.S. President spent the longest time in office?</div>
+      <div class="answer">Franklin D. Roosevelt.</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
