@@ -1,0 +1,149 @@
+<!--Cailyn-Rose Dapkins-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rock Bands</title>
+    <style>
+        .bands {
+            padding: 20px;
+        }
+        
+        .band-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        
+        .band {
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #bbbbbb;
+        }
+        
+        .band h3 {
+            margin-bottom: 10px;
+        }
+        
+        .band p {
+            font-weight: bold;
+        }
+        
+        .band ul {
+            list-style-type: disc;
+            padding: 0;
+            padding-left: 20px;
+        }
+        
+        .band li {
+            margin-bottom: 5px;
+        }
+
+        .band-image {
+        max-width: 50%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 25%;
+        align-items: center;
+        border-radius: 20px;
+    }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Rock Music Hub</h1>
+        <img src="images/indexphoto.png" alt="Picture of instruments">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="bands.html">Bands</a></li>
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="instruments.html">Instruments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="bands">
+            <h2>Notable Rock Bands</h2>
+            <p>(Only current members or members at the time of disbanding if they are no longer active)</p>
+
+            <div class="band-grid">
+                <div class="band">
+                    <h3>Led Zeppelin</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>Robert Plant</li>
+                        <li>Jimmy Page</li>
+                        <li>John Paul Jones</li>
+                        <li>John Bonham</li>
+                    </ul>
+                </div>
+
+                <div class="band">
+                    <h3>The Rolling Stones</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>Mick Jagger</li>
+                        <li>Keith Richards</li>
+                        <li>Ronnie Wood</li>
+                    </ul>
+                </div>
+
+                <div class="band">
+                    <h3>The Beatles</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>John Lennon</li>
+                        <li>Paul McCartney</li>
+                        <li>George Harrison</li>
+                        <li>Ringo Starr</li>
+                    </ul>
+                </div>
+
+                <div class="band">
+                    <h3>AC/DC</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>Angus Young</li>
+                        <li>Phil Rudd</li>
+                        <li>Cliff Williams</li>
+                        <li>Brian Johnson</li>
+                        <li>Stevie Young</li>
+                    </ul>
+                </div>
+
+                <div class="band">
+                    <h3>Pink Floyd</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>Nick Mason</li>
+                        <li>David Gilmour</li>
+                    </ul>
+                </div>
+
+                <div class="band">
+                    <h3>Queen</h3>
+                    <p>Members:</p>
+                    <ul>
+                        <li>Brian May</li>
+                        <li>Roger Taylor</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <img src="images/acdc.webp" alt="Arctic Monkeys playing at a concert" class="band-image">
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
